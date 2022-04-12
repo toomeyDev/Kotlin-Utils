@@ -7,3 +7,7 @@ as the size of the file in bytes.
 
 - *KtCalendar.kt*
 Uses the current date to print out a simple text-based calendar in STDOUT.
+
+- *CollectionConverter.kt*
+Takes a phrase as input in STDIN and converts it to a variety of collections formats
+from Kotlin and Java, including HashMap/HashSet (Java) and List(Kotlin).
