@@ -10,12 +10,15 @@ fun main(){
 
     // create a Kotlin list out of user input string
     val kotListFormat = uInput.toList()
+    // create a Java ArrayList out of user input string
+    val javaArrayListFormat = java.util.ArrayList<String>()
+    javaArrayListFormat.add(uInput)
     // create a java HashMap out of user input string
     val javaHashMapFormat = getAsHashMap(uInput)
     // create a java HashSet out of user input string
     val javaHashSetFormat = getAsHashSet(uInput)
-    uInput.to
     println("In Kotlin list format: \n${kotListFormat}")
+    println("In Java ArrayList format: \n${javaArrayListFormat}")
     println("In Java HashMap format: \n${javaHashMapFormat}")
     println("In Java HashSet format (unique characters only): \n" +
             "${javaHashSetFormat}")
